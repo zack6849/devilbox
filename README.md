@@ -5,7 +5,7 @@
 ![Devilbox](docs/img/banner.png)
 
 **[Usage](#usage)** |
-**[Available Container](#available-container)** |
+**[Available Containers](#available-container)** |
 **[Community](#community)** |
 **[Features](#feature-overview)** |
 **[Intranet](#intranet-overview)** |
@@ -47,7 +47,7 @@ Furthermore, the Devilbox provides an **identical** and **reproducible developme
 
 ## Available Container
 
-The Devilbox ships the following pre-configured Docker container in any available version.
+The Devilbox ships the following pre-configured Docker containers in any available version.
 
 | Web server | SQL        | NoSQL     | Queue & Search | Misc      |
 |------------|------------|-----------|----------------|-----------|
@@ -57,16 +57,16 @@ The Devilbox ships the following pre-configured Docker container in any availabl
 |            | PostgreSQL |           |                | PHP       |
 
 > **Documentation:**
-> [Available Container](https://devilbox.readthedocs.io/en/latest/readings/available-container.html)
+> [Available Containers](https://devilbox.readthedocs.io/en/latest/readings/available-container.html)
 
 ## Community
 
 The Devilbox has a lot of features reaching from a simple single-user development environment that
 works out of the box up to a shared development infrastructure for a corporate network.
 
-In order to be aware about all that features, ensure to have skimmed over the
+In order to be aware about all the features, ensure you have skimmed over the
 **[documentation](https://devilbox.readthedocs.io)**, so you know what can be done and how that might
-simplify your every-day life. If you ever run into any unforseen issues, feel free to join the
+simplify your every-day life. If you run into any unforseen issues, feel free to join the
 **[chat](https://gitter.im/devilbox/Lobby)** or visit the **[forums](https://devilbox.discourse.group)** and get community support quickly.
 
 <table width="100%" style="width:100%; display:table;">
@@ -124,7 +124,7 @@ $ cd devilbox
 $ cp env-example .env</pre>
 <pre># Edit your configuration
 $ vim .env</pre>
-<pre># Start all container
+<pre># Start all containers
 $ docker-compose up</pre>
    </td>
    <td>
@@ -132,7 +132,7 @@ $ docker-compose up</pre>
     2. Copy <code>C:\devilbox\env-example</code> to <code>C:\devilbox\.env</code><br/><br/>
     3. Edit <code>C:\devilbox\.env</code><br/><br/>
     4. <a href="https://devilbox.readthedocs.io/en/latest/howto/terminal/open-terminal-on-win.html">Open a terminal on Windows</a> and type:<br/><br/><br/>
-    <pre># Start all container
+    <pre># Start all containers
 C:\devilbox> docker-compose up</pre></div>
    </td>
   </tr>
